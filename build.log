@@ -1,0 +1,116 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.7/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+> Task :buildSrc:checkKotlinGradlePluginConfigurationErrors
+> Task :buildSrc:compileKotlin UP-TO-DATE
+> Task :buildSrc:compileJava NO-SOURCE
+> Task :buildSrc:compileGroovy NO-SOURCE
+> Task :buildSrc:pluginDescriptors UP-TO-DATE
+> Task :buildSrc:processResources UP-TO-DATE
+> Task :buildSrc:classes UP-TO-DATE
+> Task :buildSrc:jar UP-TO-DATE
+
+> Configure project :TMessagesProj
+WARNING: The option setting 'android.defaults.buildfeatures.buildconfig=true' is deprecated.
+The current default is 'false'.
+It will be removed in version 9.0 of the Android Gradle plugin.
+To keep using this feature, add the following to your module-level build.gradle files:
+    android.buildFeatures.buildConfig = true
+or from Android Studio, click: `Refactor` > `Migrate BuildConfig to Gradle Build Files`.
+
+> Configure project :TMessagesProj_AppHuawei
+--W- Build Environment: AGConnect plugin version is: 1.9.1.301, Gradle version is: 8.7, Android Plugin version is: 8.6.1
+--I- Using the AGConnect-Config file: C:\Users\Asus\Desktop\opengram-android\TMessagesProj_AppHuawei\agconnect-services.json
+--W- The variant: afatDebug, Use the json file: C:\Users\Asus\Desktop\opengram-android\TMessagesProj_AppHuawei\agconnect-services.json
+--I- Using the AGConnect-Config file: C:\Users\Asus\Desktop\opengram-android\TMessagesProj_AppHuawei\agconnect-services.json
+--W- The variant: afatRelease, Use the json file: C:\Users\Asus\Desktop\opengram-android\TMessagesProj_AppHuawei\agconnect-services.json
+
+> Task :TMessagesProj:checkVisibility
+> Task :TMessagesProj:preBuild
+> Task :TMessagesProj:preDebugBuild
+
+> Task :TMessagesProj:configureCMakeDebug[arm64-v8a]
+[CXX5304] This version only understands SDK XML versions up to 3 but an SDK XML file of version 4 was encountered. This can happen if you use versions of Android Studio and the command-line tools that were released at different times.
+[CXX5304] This version only understands SDK XML versions up to 3 but an SDK XML file of version 4 was encountered. This can happen if you use versions of Android Studio and the command-line tools that were released at different times.
+
+> Task :TMessagesProj:buildCMakeDebug[arm64-v8a]
+> Task :TMessagesProj:mergeDebugJniLibFolders UP-TO-DATE
+> Task :TMessagesProj:mergeDebugNativeLibs UP-TO-DATE
+> Task :TMessagesProj:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :TMessagesProj:generateDebugBuildConfig UP-TO-DATE
+> Task :TMessagesProj:generateDebugResValues UP-TO-DATE
+> Task :TMessagesProj:generateDebugResources UP-TO-DATE
+> Task :TMessagesProj_App:preBuild UP-TO-DATE
+> Task :TMessagesProj_App:preAfatDebugBuild UP-TO-DATE
+> Task :TMessagesProj:packageDebugResources UP-TO-DATE
+> Task :TMessagesProj:parseDebugLocalResources UP-TO-DATE
+> Task :TMessagesProj:generateDebugRFile UP-TO-DATE
+> Task :TMessagesProj:javaPreCompileDebug UP-TO-DATE
+> Task :TMessagesProj_App:mergeAfatDebugJniLibFolders
+> Task :TMessagesProj_App:mergeAfatDebugJniLibFolders UP-TO-DATE
+> Task :TMessagesProj_App:mergeAfatDebugNativeLibs UP-TO-DATE
+> Task :TMessagesProj_App:stripAfatDebugDebugSymbols UP-TO-DATE
+> Task :TMessagesProj_App:extractAfatDebugNativeDebugMetadata UP-TO-DATE
+> Task :TMessagesProj_App:mergeAfatDebugNativeDebugMetadata UP-TO-DATE
+> Task :TMessagesProj_App:generateAfatDebugBuildConfig UP-TO-DATE
+> Task :TMessagesProj_App:javaPreCompileAfatDebug UP-TO-DATE
+> Task :TMessagesProj_App:generateAfatDebugResValues UP-TO-DATE
+> Task :TMessagesProj_App:mapAfatDebugSourceSetPaths UP-TO-DATE
+> Task :TMessagesProj_App:generateAfatDebugResources UP-TO-DATE
+> Task :TMessagesProj:compileDebugJavaWithJavac
+> Task :TMessagesProj_App:mergeAfatDebugResources UP-TO-DATE
+> Task :TMessagesProj_App:createAfatDebugCompatibleScreenManifests UP-TO-DATE
+> Task :TMessagesProj_App:extractDeepLinksAfatDebug UP-TO-DATE
+> Task :TMessagesProj_App:mergeAfatDebugShaders UP-TO-DATE
+> Task :TMessagesProj_App:compileAfatDebugShaders NO-SOURCE
+> Task :TMessagesProj_App:generateAfatDebugAssets UP-TO-DATE
+> Task :TMessagesProj_App:l8DexDesugarLibAfatDebug UP-TO-DATE
+> Task :TMessagesProj_App:processAfatDebugJavaRes NO-SOURCE
+> Task :TMessagesProj_App:checkAfatDebugDuplicateClasses UP-TO-DATE
+> Task :TMessagesProj_App:desugarAfatDebugFileDependencies UP-TO-DATE
+> Task :TMessagesProj_App:mergeExtDexAfatDebug UP-TO-DATE
+> Task :TMessagesProj_App:validateSigningAfatDebug UP-TO-DATE
+> Task :TMessagesProj_App:writeAfatDebugAppMetadata UP-TO-DATE
+> Task :TMessagesProj_App:writeAfatDebugSigningConfigVersions UP-TO-DATE
+
+> Task :TMessagesProj:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: C:\Users\Asus\Desktop\opengram-android\TMessagesProj\src\main\java\org\telegram\ui\DialogsActivity.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :TMessagesProj:compileDebugLibraryResources UP-TO-DATE
+> Task :TMessagesProj:writeDebugAarMetadata UP-TO-DATE
+> Task :TMessagesProj:extractDeepLinksDebug UP-TO-DATE
+> Task :TMessagesProj:processDebugManifest UP-TO-DATE
+> Task :TMessagesProj:mergeDebugShaders UP-TO-DATE
+> Task :TMessagesProj:compileDebugShaders NO-SOURCE
+> Task :TMessagesProj:generateDebugAssets UP-TO-DATE
+> Task :TMessagesProj_App:checkAfatDebugAarMetadata UP-TO-DATE
+> Task :TMessagesProj:packageDebugAssets UP-TO-DATE
+> Task :TMessagesProj:processDebugJavaRes NO-SOURCE
+> Task :TMessagesProj_App:processAfatDebugMainManifest UP-TO-DATE
+> Task :TMessagesProj_App:processAfatDebugManifest UP-TO-DATE
+> Task :TMessagesProj_App:processAfatDebugManifestForPackage UP-TO-DATE
+> Task :TMessagesProj_App:processAfatDebugResources UP-TO-DATE
+> Task :TMessagesProj_App:mergeAfatDebugAssets UP-TO-DATE
+> Task :TMessagesProj_App:compressAfatDebugAssets UP-TO-DATE
+> Task :TMessagesProj_App:mergeAfatDebugJavaResource UP-TO-DATE
+> Task :TMessagesProj:bundleLibCompileToJarDebug
+> Task :TMessagesProj:bundleLibRuntimeToJarDebug
+> Task :TMessagesProj_App:compileAfatDebugJavaWithJavac UP-TO-DATE
+> Task :TMessagesProj_App:dexBuilderAfatDebug UP-TO-DATE
+> Task :TMessagesProj_App:mergeProjectDexAfatDebug UP-TO-DATE
+> Task :TMessagesProj_App:mergeLibDexAfatDebug
+> Task :TMessagesProj_App:packageAfatDebug
+> Task :TMessagesProj_App:createAfatDebugApkListingFileRedirect UP-TO-DATE
+> Task :TMessagesProj_App:assembleAfatDebug
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.7/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 29m 16s
+62 actionable tasks: 9 executed, 53 up-to-date
+BUILD_EXIT=0 

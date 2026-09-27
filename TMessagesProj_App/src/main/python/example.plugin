@@ -1,0 +1,22 @@
+from base_plugin import BasePlugin, HookResult, HookStrategy
+
+__id__ = "example_plugin"
+__name__ = "Example Plugin"
+__description__ = "Пример плагина для ilyshagram"
+__author__ = "ilyshagram"
+__version__ = "1.0.0"
+
+
+class Plugin(BasePlugin):
+    def on_plugin_load(self):
+        self.log("Example plugin loaded!")
+        self.add_on_send_message_hook()
+
+    def on_send_message_hook(self, account, message):
+        if message.startswith(".hello"):
+            name = message.split(" ", 1)[1] if " " in message else "World"
+            return HookResult(
+                strategy=HookStrategy.MODIFY,
+                message=f"Hello, {name}!"
+            )
+        return HookResult()

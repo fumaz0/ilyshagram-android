@@ -1,0 +1,22 @@
+.idea/
+.gradle/
+build/
+obj/
+*.iml
+local.properties
+api_credentials.local.ps1
+*.local.json
+/logs/
+TMessagesProj/.cxx/
+TMessagesProj/jniLibs/
+TMessagesProj/jniRes/
+**/.DS_Store
+TMessagesProj/afat/
+TMessagesProj_App/afat/
+TMessagesProj_AppHockeyApp/afat/
+TMessagesProj_AppStandalone/afat/
+TMessagesProj_AppHuawei/afat/
+
+# signing key (never commit the private keystore / its password)
+TMessagesProj/config/release.keystore
+TMessagesProj/config/.keystore_password.txt
