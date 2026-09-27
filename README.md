@@ -1,3 +1,3 @@
 ilyshaGram on Android🤖
 
-tg: @ilyshaGram
+tg: @ilyshaGram and @ilyshaGramPhones
